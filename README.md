@@ -40,8 +40,14 @@ This project has been adapted to work with the Ubuntu (20.04) release due to (16
 ```bash
 git clone https://github.com/ch3332xr/SecGen
 cd SecGen
+```
+```bash
 chmod +x SecGen_Setup_Ubuntu_22.sh
+```
+```bash
 sudo ./SecGen_Setup_Ubuntu_22.sh
+```
+```bash
 ruby secgen.rb run
 ```
 
