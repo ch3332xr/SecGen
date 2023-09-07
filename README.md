@@ -36,12 +36,14 @@ You will need to install the following:
 This project has been adapted to work with the Ubuntu (20.04) release due to (16.04) coming to end of life as of April 2021, though it will still work on that version it is not guaranteed to support the security updates needed for your development environment.
 
 ## Ubuntu 22.04.3 LTS
+
+```bash
 git clone https://github.com/ch3332xr/SecGen
 cd SecGen
 chmod +x SecGen_Setup_Ubuntu_22.sh
 sudo ./SecGen_Setup_Ubuntu_22.sh
 ruby secgen.rb run
-
+```
 
 ### On Ubuntu (20.04) these commands will get you up and running
 
